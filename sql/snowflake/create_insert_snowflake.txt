@@ -4,11 +4,11 @@
 -- ============================================================
 
 -- BORRAR TABLAS (orden inverso de dependencias)
-DROP TABLE IF EXISTS dim_categoria;
-DROP TABLE IF EXISTS dim_proveedor;
+DROP TABLE IF EXISTS fact_ventas;
 DROP TABLE IF EXISTS dim_producto;
 DROP TABLE IF EXISTS dim_calendario;
-DROP TABLE IF EXISTS fact_ventas;
+DROP TABLE IF EXISTS dim_proveedor;
+DROP TABLE IF EXISTS dim_categoria;
 
 
 
