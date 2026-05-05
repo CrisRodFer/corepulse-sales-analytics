@@ -1,0 +1,18 @@
+# Entorno
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datos (NO subir)
+data/raw/
+data/interim/
+data/processed/
+
+# Archivos pesados / binarios
+*.parquet
+*.xlsx
+*.csv
